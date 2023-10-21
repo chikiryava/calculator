@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    border: 1px black solid;
+    width: 700px;
+    height: 800px;
+    margin: 10px auto;
+}
+.window{
+    display:block;
+    width: 500px;
+    height: 60px;
+    margin: 10px auto 0;
+    background: darkslategrey;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 15px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 30px;
+}
+.button{
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    background: rgba(0,10,32,0.66);
+}
+.remove{
+    grid-column-start: 4;
+}

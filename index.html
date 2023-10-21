@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+</head>
+<body>
+<div></div>
+<section class="main">
+    <input class="window" id="input" readonly>
+    <div class="buttons">
+        <button class="button" value="7" onclick="addNumbers(this.value)">7</button>
+        <button class="button" value="8" onclick="addNumbers(this.value)">8</button>
+        <button class="button" value="9" onclick="addNumbers(this.value)">9</button>
+        <button class="button" value="/" onclick="addNumbers(this.value)">÷</button>
+        <button class="button" value="4" onclick="addNumbers(this.value)">4</button>
+        <button class="button" value="5" onclick="addNumbers(this.value)">5</button>
+        <button class="button" value="6" onclick="addNumbers(this.value)">6</button>
+        <button class="button" value="*" onclick="addNumbers(this.value)">×</button>
+        <button class="button" value="1" onclick="addNumbers(this.value)">1</button>
+        <button class="button" value="2" onclick="addNumbers(this.value)">2</button>
+        <button class="button" value="3" onclick="addNumbers(this.value)">3</button>
+        <button class="button" value="-" onclick="addNumbers(this.value)">-</button>
+        <button class="button" value="0" onclick="addNumbers(this.value)">0</button>
+        <button class="button" value="." onclick="addNumbers(this.value)">.</button>
+        <button class="button" onclick="calculate()">=</button>
+        <button class="button" value="+" onclick="addNumbers(this.value)">+</button>
+        <button class="button remove" onclick="removeNumber()">AC</button>
+    </div>
+</section>
+
+<script src="/scripts.js"></script>
+</body>
+</html>
